@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/0.0.1/changes/0.1-create_table_slimes.sql
+  - include:
+      file: db/changelog/0.0.1/changes/0.2-add_last_pet_date_to_slimes_table.sql
