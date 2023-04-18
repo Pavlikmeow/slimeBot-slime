@@ -19,7 +19,7 @@ public class SlimeController {
 
     @GetMapping("/{telegramId}")
     public SlimePresentable getSlimeByTelegramId(@PathVariable String telegramId) {
-        return slimeService.getSlimeByTelegramId(telegramId);
+        return slimeService.getSlimePresentableByTelegramId(telegramId);
     }
 
     @PostMapping("/heal/{telegramId}")

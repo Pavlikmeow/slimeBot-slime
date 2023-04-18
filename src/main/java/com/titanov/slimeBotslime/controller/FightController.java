@@ -18,7 +18,7 @@ public class FightController {
 
     @GetMapping("/{telegramId}")
     public FightPresentable getFightByTelegramId(@PathVariable String telegramId) {
-        return fightService.getFightByTelegramId(telegramId);
+        return fightService.getFightPresentableByTelegramId(telegramId);
     }
 
     @PostMapping("/attack/{telegramId}")
